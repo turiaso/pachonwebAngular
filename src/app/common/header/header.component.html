@@ -1,0 +1,7 @@
+<nav>
+	<a md-button href="/">
+		<img src='/assets/images/fuckyou.png'/>
+		Test Material
+	</a>
+	<a  *ngFor="let link of links" md-button href="{{link.url}}">{{link.label}}</a>
+</nav>

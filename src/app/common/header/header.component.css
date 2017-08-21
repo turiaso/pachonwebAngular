@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: start;
+  background-color: #eee;
+}
+
+nav a{
+  font-size: 20px;
+  font-weight: bold;	
+}
+
+nav img{
+	height: 20px;
+	vertical-align: text-top;
+}
